@@ -1,4 +1,4 @@
-module github.com/go-masonry/bricks/cfg/bviper
+module github.com/go-masonry/bviper
 
 go 1.14
 
@@ -8,6 +8,4 @@ require (
 	github.com/stretchr/testify v1.6.1
 )
 
-replace (
-	github.com/go-masonry/mortar => /Users/talgendler/development/go/src/github.com/go-masonry/mortar
-)
+replace github.com/go-masonry/mortar => /Users/talgendler/development/go/src/github.com/go-masonry/mortar
