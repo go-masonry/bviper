@@ -1,9 +1,10 @@
 package bviper
 
 import (
+	"time"
+
 	"github.com/go-masonry/mortar/interfaces/cfg"
 	"github.com/spf13/viper"
-	"time"
 )
 
 type viperWrapper struct {

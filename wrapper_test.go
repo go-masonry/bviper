@@ -1,11 +1,12 @@
 package bviper
 
 import (
-	"github.com/spf13/viper"
-	"github.com/stretchr/testify/assert"
 	"os"
 	"testing"
 	"time"
+
+	"github.com/spf13/viper"
+	"github.com/stretchr/testify/assert"
 )
 
 var timeStamp, _ = time.Parse(time.RFC3339, "2020-07-15T12:07:18+00:00")

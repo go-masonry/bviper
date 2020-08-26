@@ -2,14 +2,17 @@ package bviper
 
 import (
 	"container/list"
+	"strings"
+
 	"github.com/go-masonry/mortar/interfaces/cfg"
 	"github.com/spf13/viper"
-	"strings"
 )
 
 const (
+	// EnvKeyDelimiterFrom shell environment delimiter
 	EnvKeyDelimiterFrom = "_"
-	EnvKeyDelimiterTo   = "."
+	// EnvKeyDelimiterTo delimiter used by application
+	EnvKeyDelimiterTo = "."
 )
 
 type viperConfig struct {
